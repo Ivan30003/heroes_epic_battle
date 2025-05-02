@@ -1,0 +1,16 @@
+[
+    {
+        "name": "handswing",
+        "health": 950,
+        "attack": 101,
+        "defense": 101,
+        "abilities": ["simple", "unhealing_wound"]
+    }, 
+    {
+        "name": "seasword",
+        "health": 1000,
+        "attack": 100,
+        "defense": 100,
+        "abilities": ["simple", "mighty_strike", "headshot"]
+    }
+]

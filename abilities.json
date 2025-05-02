@@ -1,0 +1,37 @@
+[
+    {
+        "headshot":
+        {
+            "cost": 3, "cooldown": 0,
+            "actions": [{"target": 0, "type": "damage", "params": {"damage_value": "525%"}}]
+        },
+        "mighty_strike":
+        {
+            "cost": 4, "cooldown": 0,
+            "actions": 
+            [
+                {"target": -1, "type": "damage", "params": {"damage_value": "250%"}},
+                {"target": 0, "type": "damage", "params": {"damage_value": "500%"}},
+                {"target": 1, "type": "damage", "params": {"damage_value": "250%"}}
+            ]
+        },
+        "simple":
+        {
+            "cost": 0, "cooldown": 0,
+            "actions":
+            [
+                {"target": 0, "type": "damage", "params": {"damage_value": "100%"}}
+            ]
+        },
+        "unhealing_wound":
+        {
+            "cost": 3, "cooldown": 0,
+            "actions": 
+            [
+                {"target": 0, "type": "damage", "params": {"damage_value": "410%"}}, 
+                {"target": 0, "type": "effect", "params": {"type": "anti_fire_shield", "value": "80%"}},
+                {"target": 0, "type": "effect", "params": {"type": "healing", "value": "-90%"}}
+            ]
+        }
+    }
+]
